@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Depression Website</title>
+    <script src='main.js' defer></script>
+    <link rel="stylesheet" href = "style.css">
+    
+</head>
+<body>
+    <div id="nav_bar">
+        <a href="index.html"><div class="items">Home</div></a>
+        <a href="second_page.html"><div class="items">Our Mission</div></a>
+        <a href="https://www.cdc.gov/mentalhealth/stress-coping/cope-with-stress/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fdaily-life-coping%2Fmanaging-stress-anxiety.html" target="_blank"><div class="items">Research</div></a>
+        <a href="solutions.html"><div class="items">Solutions</div></a>
+        <a href="contact_us.html"><div class="items">Contact Us</div></a>
+    </div>
+    <br>
+    <h1 id="title"><b>Covid Community Resources</b></h1>
+    </br>
+
+    <div class="covid_form">
+        <form>
+            <label for="Covid-Experience">Choose a covid experience:</label>
+            <select id="Covid-Experience" name="Covid-Experience" >
+              
+              <option value="Isolation" class = "input">Isolation</option>
+              <option value="Loss of Family" class = "input">Loss of Family</option>
+              <option value="Having Covid" class = "input">Having Covid</option>
+              
+            </select>
+            <h2 id = "pick"></h2>
+            <input id="submit" type="submit" onclick="input()">
+          </form>
+
+          <button id="dark" onclick="myFunction()">Dark/Light mode</button>
+          <p id = "seasonal"></p>
+          <a id = "boi"></a>
+          
+    </div>
+    
+    
+</body>
+</html>
